@@ -6,3 +6,8 @@ def multiples(multiples,limit):
         answer.append(term)
     return (answer)
     
+def totalList(inlist):
+    answer = 0
+    for something in inlist:
+        answer = answer + something
+    return (answer)
